@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a new Product"
+        android:id="@+id/head"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentStart="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:background="@drawable/gradient"
+        android:padding="30dp"
+        android:id="@+id/linearLayout">
+
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product Name"
+            android:textColorHint="#ffffff"
+            android:padding="25dp"/>
+
+
+
+
+        <EditText
+            android:id="@+id/editTextSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:padding="25dp"
+            android:textColor="#ffffff"
+            android:hint="Enter Stock Available"
+            android:textColorHint="#ffffff"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonAddEmployee"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="25dp"
+            android:textStyle="bold"
+            android:text="Add product"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/textViewViewEmployees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColorHint="#ffffff"
+            android:text="View Product"
+            android:padding="25dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

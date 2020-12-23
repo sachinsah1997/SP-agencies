@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/raw"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="184dp"
+        android:background="@drawable/gradient"
+        android:text="Raw Materials"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/fgoods"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="174dp"
+        android:background="@drawable/gradient"
+        android:text="Finished Goods"
+        android:textColor="#ffffff" />
+
+   <!-- <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Semi-finished Goods"
+        android:background="@drawable/gradient"
+        android:textColor="#ffffff"
+        android:id="@+id/sfgoods"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/fgoods"
+        android:layout_alignEnd="@+id/chemicals" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="metal-fittings"
+        android:id="@+id/metalfit"
+        android:textColor="#ffffff"
+        android:background="@drawable/gradient"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/chemicals"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:text="Rubbers"
+        android:background="@drawable/gradient"
+        android:id="@+id/rubbers"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/fgoods"
+        android:layout_toStartOf="@+id/scrollView" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="chemicals"
+        android:id="@+id/chemicals"
+        android:textColor="#ffffff"
+        android:background="@drawable/gradient"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/fgoods"
+        android:layout_toEndOf="@+id/metalfit" />
+
+-->
+
+</RelativeLayout>

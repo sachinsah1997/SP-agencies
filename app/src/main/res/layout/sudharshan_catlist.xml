@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/figoods"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/gradient"
+        android:text="finished goods"
+        android:textColor="#ffffff" />
+<!--
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="package materials"
+        android:id="@+id/pmaterials"
+
+        android:textColor="#ffffff"
+        android:background="@drawable/gradient"
+
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/figoods"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="forgings"
+        android:id="@+id/forgings"
+             android:layout_alignBaseline="@+id/pmaterials"
+        android:textColor="#ffffff"
+        android:background="@drawable/gradient"
+
+        android:layout_alignBottom="@+id/pmaterials"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="chemicals"
+        android:id="@+id/chemicalssud"
+
+        android:textColor="#ffffff"
+        android:background="@drawable/gradient"
+            android:layout_alignTop="@+id/forgings"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="metal fittings"
+        android:id="@+id/mfit"
+        android:textColor="#ffffff"
+        android:background="@drawable/gradient"
+
+
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/fgoods" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="NYLON/CANVAS"
+        android:textColor="#ffffff"
+        android:background="@drawable/gradient"
+
+
+        android:id="@+id/nc"
+        android:layout_alignTop="@+id/mfit"
+        android:layout_toEndOf="@+id/figoods" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="polyurathane"
+
+        android:id="@+id/poly"
+        android:layout_marginTop="48dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/gradient"
+
+        android:layout_below="@+id/nc"
+        android:layout_alignEnd="@+id/nc" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="rubbers"
+        android:id="@+id/rub"
+
+        android:textColor="#ffffff"
+        android:background="@drawable/gradient"
+
+        android:layout_alignTop="@+id/poly"
+        android:layout_toStartOf="@+id/pmaterials" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="rejection/trail/sample"
+        android:id="@+id/rej"
+
+        android:textColor="#ffffff"
+        android:background="@drawable/gradient"
+
+        android:layout_below="@+id/poly"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+-->
+    <Button
+        android:id="@+id/sudraw"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="184dp"
+        android:background="@drawable/gradient"
+        android:text="Raw Materials"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

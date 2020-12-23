@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Report Details"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        >
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:hint="Enter Product"
+          android:editable="false"
+        />
+
+
+    <EditText
+        android:id="@+id/editTextName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="semi-finished"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:editable="false"/>
+
+    <EditText
+        android:id="@+id/editTextSalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:hint="20"
+        android:layout_marginLeft="20dp"
+        android:editable="false"
+        />
+
+</LinearLayout>
+
+
+
+
+    <!-- <EditText
+        android:id="@+id/editTextName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Category Name"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:editable="false"/>
+-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Production:"
+        android:textColor="#ffffff"
+
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/production"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:focusable="true"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:hint="Enter Productio"
+
+        android:inputType="number" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Purchase:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/purchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:textColorHint="#ffffff"
+      android:focusable="true"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="65dp"
+        android:hint="Enter Purchase"
+        android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Consumption:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/consumption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:textColorHint="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:textColor="#ffffff"
+        android:hint="Enter Consum"
+        android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Sale:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/sale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="110dp"
+        android:hint="Enter Sale"
+        android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Remarks:"
+            android:textColor="#ffffff"
+
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/remarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="70dp"
+           />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonUpdateEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:text="store details"
+
+        />
+
+
+</LinearLayout>
